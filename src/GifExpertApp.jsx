@@ -4,7 +4,7 @@ import { AddCategory, GifGrid } from './components';
 export const GifExpertApp = () => {
 	//mantener un hook de React para mantener el estado
 	//no poner en condicionales los hooks de hook state o effect
-	const [categories, setCategories] = useState(['One Punch']);
+	const [categories, setCategories] = useState(['Mob Psycho 100']);
 
 	const onAddCategory = (newCategory) => {
 		if (categories.includes(newCategory)) return;
@@ -19,7 +19,7 @@ export const GifExpertApp = () => {
 		<>
 			{/* titulo */}
 			<h1>GifExpertApp</h1>
-
+			<h2>@Ingridsfd</h2>
 			{/* input cada componente debe tener una responsabilidad unica*/}
 			<AddCategory
 				// setCategories={setCategories}
